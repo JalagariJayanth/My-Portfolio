@@ -37,7 +37,12 @@ flex-direction: column;
 .bottom_container{
     width:90%;
     max-width:1110px;
-    margin-top:80px;
+    margin-top:95px;
+}
+@media screen and (max-width:768px){
+    .bottom_container{
+        margin-top:120px;
+    }
 }
 .projects-list-container{
     flex-wrap:wrap;
@@ -49,7 +54,13 @@ flex-direction: column;
 .projects-heading{
     color:#fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:20px;
+    font-size:21px;
+    opacity:0.8;
+}
+@media screen and (max-width:768px){
+    .projects-heading{
+        padding-left:10px;
+    }
 }
 .skills-heading{
     color:black;
