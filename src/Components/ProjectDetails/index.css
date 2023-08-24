@@ -1,0 +1,128 @@
+.about-project-main-container{
+    display:flex;
+    justify-content:center;
+}
+.product-indetail-container{
+    width:90%;
+    max-width:1110px;
+    margin-top:50px;
+}
+.product-indetail-name{
+    color:#000;
+    font-family: 'sans-serif';
+    font-size:28px;
+    font-weight:0;
+}
+.line{
+    size:1px;
+    opacity:0.3;
+}
+.product-indetail-description-sliderimage{
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+@media screen and (max-width:768px){
+    .product-indetail-description-sliderimage{
+        flex-direction:column;
+    }
+}
+
+
+.product-indetail-description-points{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:40%;
+}
+@media screen and (max-width:768px){
+    .product-indetail-description-points{
+        width:100%;
+    }
+}
+.react-slider-images-container{
+    width:55%;
+    margin-right:50px;
+    
+}
+@media screen and (max-width:768px){
+    .react-slider-images-container{
+        display:flex;
+        align-items:flex-start;
+       justify-content:flex-start;
+      width:80%;
+        margin-top:20px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+}
+.react-slider-image-properties{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.slider-image{
+    width:100%;
+    height:350px;
+}
+@media screen and (max-width:768px){
+    .slider-image{
+        height:200px;
+       
+    }
+}
+.slick-icon{
+    color:lightblue;
+}
+.left-arrow{
+    background-color:transparent;
+    border:none;
+    font-size:25px;
+}
+.right-arrow{
+    background-color:transparent;
+    border:none;
+    font-size:25px;
+}
+.slick-icon:hover{
+    color:#FFD700
+}
+.project-technologies-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:13px;
+}
+.technologies-used-container{
+    margin:5px;
+    font-weight:500;
+}
+.source-code-container{
+    background-color:transparent;
+    padding:13px;
+    border:2px solid #FFD700;
+    text-decoration:none;
+    border-radius:5px;
+    width:150px;
+    margin-top:10px;
+}
+.trying{
+    text-decoration:none;
+    color:#000
+}
+.demo-code-container{
+    background-color: #FFD700;
+    border-radius:5px;
+    width:150px;
+    border:none;
+    padding:11px;
+    width:150px;
+    text-decoration:none;
+    margin-top:10px;
+}
+
+.project-code-demo-buttons{
+    display:flex;
+    gap:20px;
+}

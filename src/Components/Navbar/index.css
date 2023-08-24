@@ -1,0 +1,53 @@
+/* index.css */
+.nav-header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1110px;
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+
+
+
+.name {
+    color: rgb(239, 244, 248);
+    font-family: "Roboto";
+    font-size:20px;
+}
+.navs {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+   
+}
+
+.list_item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size:17px;
+}
+.text_decoration{
+    text-decoration:none;
+}
+
+.list_item:hover {
+    border-bottom: 2px solid rgb(255, 230, 8);
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:768px){
+    .list_item{
+        display:none;
+    }
+}

@@ -1,0 +1,36 @@
+.project-bg-container{
+    min-width:320px;
+    height:320px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+.projectname{
+    color: #fff;
+    font-family:"Roboto";
+    font-size:20px;
+}
+
+@media screen and (min-width:768px){
+    .project-bg-container{
+        width:350px;
+        height:330px;
+    }
+}
+.border{
+    width:95%;
+    height:95%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.border:hover{
+    border:2px solid rgb(238, 233, 233);
+    cursor: pointer;
+}
+.none-textdecoration{
+    text-decoration:none;
+}
