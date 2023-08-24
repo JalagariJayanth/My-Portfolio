@@ -19,8 +19,8 @@ const skills = [
 const Main = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "http://localhost:3000/Jayanth Jalagari Resume.pdf";
-    link.download = "Jayanth Jalagari Resume.pdf";
+    link.href = "JayanthJalagari_Resume.pdf";
+    link.download = "JayanthJalagari_Resume.pdf";
     link.click()
   };
   return (
