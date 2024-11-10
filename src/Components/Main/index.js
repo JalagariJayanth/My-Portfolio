@@ -5,7 +5,6 @@ import Footer from "../Footer";
 import "./index.css";
 
 const skills = [
-  "Python",
   "JavaScript",
   "React.js",
   "Node.js",
@@ -14,6 +13,8 @@ const skills = [
   "HTML",
   "CSS",
   "BootStrap",
+  "Redux",
+  "Firebase"
 ];
 
 const Main = () => {
@@ -28,7 +29,7 @@ const Main = () => {
       <Navbar />
       <div className="container">
         <div className="intro_container">
-          <h1 className="role">Web developer</h1>
+          <h1 className="role">Full Stack developer</h1>
           <p className="about">
             Passionate about learning new technologies and solving challenging
             problems. Self-motivated, willing to put in the time and energy to

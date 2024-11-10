@@ -7,7 +7,7 @@ const Navbar = () => (
         <div className="nav-content">
             <h1 className="name">Jalagari Jayanth</h1>
             <ul className="navs">
-                <a className="text_decoration" href="#projects"><li className='list_item'>Portfolio</li></a>
+                <a className="text_decoration" href="#projects"><li className='list_item'>My Work</li></a>
                 <a className="text_decoration" href="#skills"><li className='list_item'>Skills</li></a>
                 <a className="text_decoration" href="#resume"><li className='list_item'>Resume</li></a>
             </ul>
